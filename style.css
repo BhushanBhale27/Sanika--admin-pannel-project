@@ -30,15 +30,15 @@ body{
     background-position: center;
 }
 .container #slider-img-2{
-    background-image: url(img/p2.jpg);
+    background-image: url("https://static.businessworld.in/article/article_extra_large_image/1474287957_18TSa8_electronics-shutterstock-470.jpg");
     background-position: center;
 }
 .container #slider-img-3{
-    background-image: url(img/p3.jpg);
+    background-image: url("https://dev.rodpub.com/images/145/540_main.jpg");
     background-position: center;
 }
 .container #slider-img-4{
-    background-image: url(img/p4.jpg);
+    background-image: url("https://www.vendhq.com/blog/wp-content/uploads/2015/04/Blog-644x349.jpg");
     background-position: center;
 }
 .container .button-holder .button{

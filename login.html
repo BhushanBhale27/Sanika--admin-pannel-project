@@ -1,12 +1,11 @@
-
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navigation Bar</title>
-    <link rel="stylesheet" href="admin.css" />
-    <script src="script.js" defer></script>
+    <title>LogIn form</title>
+    <link rel="stylesheet" href="login.css" />
     <style type="text/css">
       * {
         text-decoration: none;
@@ -49,41 +48,34 @@
     <div>
       <nav class="navbar">
         <div class="navdiv">
-          <div class="logo"><a href="index.html">Admin Pannel</a></div>
+          <div class="logo"><a href="index.html">Admin Panel</a></div>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="admin.html" target="_parent">Admin pannel</a></li>
+            <li><a href="admin.html" target="_parent">Admin Panel</a></li>
             <li><a href="feedback.html">Feedback Form</a></li>
             <li><a href="login.html">Login</a></li>
             <li><a href="about.html">About us</a></li>
           </ul>
         </div>
-      </nav> <br />
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style3.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="form-container">
+      </nav>
+      <br />
+      <div class="form-container">
         <form action="">
-            <h3>Login</h3>
-            <label for="">name</label>
-            <input type="text" 
-            <label for="">phone number</label>
-            <input type="#" placeholder="phone number" required>
-            <label for="">password</label>
-            <input type="password" placeholder="password" required>
-            
-            
-            <input type="button" value="submit"
-
-
+          <h3>Login</h3>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="Phone Number" required />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <input type="submit" value="Submit" />
         </form>
-
+      </div>
     </div>
-</body>
+  </body>
 </html>

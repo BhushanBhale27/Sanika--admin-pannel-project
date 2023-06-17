@@ -1,7 +1,7 @@
 window.onload = async function () {
   try {
     const response = await axios.get(
-      "https://crudcrud.com/api/cdd8f49b571a4b1698b4ed06cacf5ae5/sellerProductData"
+      "https://crudcrud.com/api/c3d06be1ebc74d14866955da2ad348d4/sellerProductData"
     );
     const data = response.data;
     const ul1 = document.getElementById("mWear");
@@ -40,7 +40,7 @@ window.onload = async function () {
 async function detelebutton(id, li) {
   try {
     await axios.delete(
-      `https://crudcrud.com/api/cdd8f49b571a4b1698b4ed06cacf5ae5/sellerProductData/${id}`
+      `https://crudcrud.com/api/c3d06be1ebc74d14866955da2ad348d4/sellerProductData/${id}`
     );
     li.remove();
   } catch (err) {
@@ -71,7 +71,7 @@ mainButton.addEventListener("click", async (event) => {
   //save on backend(crud) using Axios:-
   try {
     const response = await axios.post(
-      "https://crudcrud.com/api/cdd8f49b571a4b1698b4ed06cacf5ae5/sellerProductData",
+      "https://crudcrud.com/api/c3d06be1ebc74d14866955da2ad348d4/sellerProductData",
       obj
     );
 
