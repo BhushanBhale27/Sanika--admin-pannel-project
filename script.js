@@ -1,7 +1,7 @@
 window.onload = async function () {
   try {
     const response = await axios.get(
-      "https://crudcrud.com/api/c3d06be1ebc74d14866955da2ad348d4/sellerProductData"
+      "https://crudcrud.com/api/255089a9d8354bde827f21045760bb8b/sellerProductData"
     );
     const data = response.data;
     const ul1 = document.getElementById("mWear");
@@ -40,7 +40,7 @@ window.onload = async function () {
 async function detelebutton(id, li) {
   try {
     await axios.delete(
-      `https://crudcrud.com/api/c3d06be1ebc74d14866955da2ad348d4/sellerProductData/${id}`
+      `https://crudcrud.com/api/255089a9d8354bde827f21045760bb8b/sellerProductData/${id}`
     );
     li.remove();
   } catch (err) {
@@ -48,7 +48,9 @@ async function detelebutton(id, li) {
   }
 }
 
+
 //Main code
+
 const mainButton = document.getElementById("btn");
 const ul1 = document.getElementById("mWear");
 const ul2 = document.getElementById("electron");
@@ -71,7 +73,7 @@ mainButton.addEventListener("click", async (event) => {
   //save on backend(crud) using Axios:-
   try {
     const response = await axios.post(
-      "https://crudcrud.com/api/c3d06be1ebc74d14866955da2ad348d4/sellerProductData",
+      "https://crudcrud.com/api/255089a9d8354bde827f21045760bb8b/sellerProductData",
       obj
     );
 
